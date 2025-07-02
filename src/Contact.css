@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+
+ /* *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+.contact-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-family: montserrat, outfit;
+        background: #000;
+}
+
+.h1-heading{
+        text-align: center;
+        padding-top: 1.3rem;
+        margin-top: 3rem;
+        font-family: outfit, poppins;
+}
+
+.contact-para{
+        text-align: center;
+        color: #c2c2c2;
+        margin-bottom: 2.8rem;
+}
+
+#msgBox{
+        padding: .5rem .6rem;
+        margin-top: 2rem;
+}
+
+.btn-wrapper{
+        position: relative;
+        text-align: center;
+        padding: 1rem 0;
+        margin: 1rem 0;
+}
+
+.btn-wrapper #submitBtn{
+        outline: none;
+        border: none;
+        color: #000;
+        padding: .5rem 1.3rem;
+        border-radius: .3rem;
+        background: #00ffff;
+}
+
+.input-wrapper {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.input-icon {
+  position: absolute;
+  top: 65%;
+  left: 12px;
+  transform: translateY(-50%);
+  color: #fff;
+  pointer-events: none;
+  font-size: 1rem;
+  
+}
+
+.inputBoxes {
+  width: 100%;
+  color: #fff;
+  margin-top: 1.2rem;
+  padding: 0.5rem 0.75rem 0.5rem 2.1rem; 
+  border-radius: 5px;
+  border: .1rem solid #fff;
+  padding-left: 2.2rem;
+  font-size: 1rem;
+  background-color: transparent;
+}
+
+.inputBoxes::placeholder {
+  color: #aaa;
+}
+
+input:focus{
+        outline: none;
+        box-shadow: none;
+}
+textarea:focus{
+        outline: none;
+        border: none;
+        box-shadow: none;
+} 
+
+ */
+
+ body, html{
+        scroll-behavior: smooth;
+        background-color: #000;
+        color: #fff;
+ }
+
+ .contact-container{
+        margin-top: 10rem;
+ }
+
+ .contact-para{
+        color: #afafaf;
+ }
+
+ .input-icon{
+        color: #000;
+ }
+
+.inputBoxes:focus,
+#msgBox:focus {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
+.inputBoxes:focus,
+#msgBox:focus {
+  background-color: #f8f9fa; 
+}

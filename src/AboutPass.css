@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.h1-one{
+        padding: 1rem 0;
+        margin: 10rem 0;
+}
+
+h1{
+        font-family: outfit, poppins, montserrat;
+        font-weight: bold;
+        text-align: center;
+}
+
+.passLogo{
+        margin-bottom: 3rem;
+}
+body{
+        color: #000;
+        height: 100vh;
+        flex: 1;
+        background: #d9d9d9;
+}
+
+.intro-container,
+.mission-holder,
+.vision-holder{
+        font-family: poppins, outfit, montserrat;
+}
+
+.intro-container p{
+        text-align: justify;
+        padding: 0 3rem;
+        margin: 5rem .1rem;
+        color: #dbdada;
+        font-size: 1.001rem;
+        line-height: 2.3;
+}
+
+.intro-container p a{
+        text-decoration: none;
+        font-weight: bold;
+}
+
+.mission-holder{
+        margin: 0 .5rem;
+        padding: 1rem;
+        color: #fff;
+        border-radius: 2rem;
+        background: #000;
+}
+
+.mission-holder p{
+        line-height: 2.3;
+        margin: 1.3rem .3rem;
+        color: #bebebe;
+}
+
+.mission-holder h1,
+.vision-holder h1{
+        margin-bottom: 1.5rem;
+}
+
+.vision-holder p{
+        line-height: 2.3;
+        color: #bebebe;
+        margin: 1.3rem .3rem;
+}
+
+.vision-holder{
+        margin: 0 .5rem;
+        padding: 1rem;
+        color: #fff;
+        border-radius: 2rem;
+        background: #000;
+}
+
+.augustino:hover,
+.foota a:hover{
+        text-decoration: underline;
+}
+
+.btn{
+        margin: 1rem .3rem;
+}
+.foota{
+        text-align: center;
+        padding: 1rem;
+        margin-top: 5rem;
+}
+
+.foota-hr{
+        border: none;
+        outline: none;
+        height: 5px;
+        background-color: #fff;
+}
+
+.foota p{
+        font-size: 1.1rem;
+}
+
+.foota a{
+        color: #0d6efd;
+        font-weight: bold;
+        text-decoration: none;
+}
+
+.faceBook{
+        color: #1877F2;
+}
+
+.whatsApp{
+        color: #25D366;
+}
+
+.linkedIn{
+        color: #1877f2;
+}
+.icons{
+        font-size: 1.9rem;
+        margin: .8rem .4rem;
+}
