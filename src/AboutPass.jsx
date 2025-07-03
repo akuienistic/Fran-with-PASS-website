@@ -7,8 +7,9 @@ import Vision from './assets/vision.svg'
 
 function AboutPass(){
         return(
-                <>
-                <div className="wrapper-container">
+
+                <div className="about-container">
+                    <div className="wrapper-container">
                   {/* Intro */}
                   <div className="intro-container text-center mb-5" data-aos="fade-up">
                     <h1 className="h1-one mb-3 text-wrap fs-1 fs-md-3 fs-lg-4"  data-aos="fade-up">PASS' Cores In a Nut Shell</h1>
@@ -66,7 +67,8 @@ function AboutPass(){
 
                         </div>
                 </div>
-                </>
+                </div>
+                
         );
 }
 export default AboutPass

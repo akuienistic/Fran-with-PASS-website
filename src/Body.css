@@ -15,7 +15,7 @@
     padding: 0.3rem;
     margin-top: 2.5rem;
     margin-bottom: 3rem;
-    transition: transform 0.3s ease;
+    transition: scale 0.3s ease;
     box-shadow: 
         0 0 15px #0ff,     
         0 0 25px rgba(0, 255, 255, 0.8); 
@@ -23,6 +23,8 @@
 
 .propic:hover{
         cursor: pointer;
+        scale: 1.2;
+        margin-bottom: 2rem 0;
 }
 
 @keyframes fadeDown {
@@ -42,7 +44,7 @@
 
 
 .section{
-  background-color: #000;
+  background-color: #050417;
   color: white;
 }
 

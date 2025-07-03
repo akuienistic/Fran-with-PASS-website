@@ -6,7 +6,7 @@ function Contact(){
 <div className="contact-container container p-4 py-md-5" data-aos="fade-up">
   <div className="contact-header text-center mb-4 mb-md-5">
     <h1 className="h1-heading display-5 fw-bold display-md-4 mb-3">GET IN TOUCH</h1>
-    <p className="contact-para lead mb-5 mx-auto" style={{maxWidth: "600px"}}>
+    <p className="contact-para display-6 mb-5 mx-auto" style={{maxWidth: "600px"}}>
       Reach out for inquiries or clarifications by leaving your details below.
     </p>
   </div>
