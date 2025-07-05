@@ -6,17 +6,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 
-
-.custom-navbar{
-        font-family: outfit, poppins;
-        padding: 1rem;
+.custom-navbar {
+  font-family: outfit, poppins;
+  padding: 1rem;
 }
 
-.brand-name{
-        font-family: outfit, yeseva one, poppins;
-        font-weight: bold;
-        font-size: 1.3rem;
-        color: #0ff;
+.brand-name {
+  font-family:
+    outfit,
+    yeseva one,
+    poppins;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #0ff;
 }
 
 .nav-link {
@@ -26,7 +28,7 @@
 }
 
 .nav-link:hover {
-  color: #0ff !important; 
+  color: #0ff !important;
   text-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
 }
 
@@ -54,7 +56,7 @@
   position: absolute;
   width: 100%;
   height: 2px;
-  background-color: #0ff; 
+  background-color: #0ff;
   left: 0;
   transition: all 0.3s ease;
 }
@@ -69,17 +71,15 @@
   bottom: 6px;
 }
 
-
-.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::before {
+.navbar-toggler[aria-expanded='true'] .navbar-toggler-icon::before {
   transform: rotate(45deg);
   top: 11px;
 }
 
-.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::after {
+.navbar-toggler[aria-expanded='true'] .navbar-toggler-icon::after {
   transform: rotate(-45deg);
   bottom: 11px;
 }
-
 
 @media (max-width: 991.98px) {
   .navbar-collapse {
@@ -96,10 +96,10 @@
 .navbar-collapse.collapsing {
   height: 0;
   overflow: hidden;
-  transition: height 0.35s ease !important; 
+  transition: height 0.35s ease !important;
 }
 
 .navbar-collapse.show {
   transition: height 0.35s ease !important;
-  margin-bottom: .1rem;
+  margin-bottom: 0.1rem;
 }

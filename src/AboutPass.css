@@ -6,123 +6,123 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.h1-one{
-        padding: 1rem 0;
-        margin: 10rem 0;
+.h1-one {
+  padding: 1rem 0;
+  margin: 10rem 0;
 }
 
-h1{
-        font-family: outfit, poppins, montserrat;
-        font-weight: bold;
-        text-align: center;
+h1 {
+  font-family: outfit, poppins, montserrat;
+  font-weight: bold;
+  text-align: center;
 }
 
-.passLogo{
-        margin-bottom: 3rem;
+.passLogo {
+  margin-bottom: 3rem;
 }
 
 .intro-container,
 .mission-holder,
-.vision-holder{
-        font-family: poppins, outfit, montserrat;
+.vision-holder {
+  font-family: poppins, outfit, montserrat;
 }
 
-.intro-container p{
-        text-align: center;
-        /* padding: 0 2rem; */
-        margin: 5rem 1.3rem;
-        color: #dbdada;
-        font-size: 1.001rem;
-        line-height: 2.3;
+.intro-container p {
+  text-align: center;
+  /* padding: 0 2rem; */
+  margin: 5rem 1.3rem;
+  color: #dbdada;
+  font-size: 1.001rem;
+  line-height: 2.3;
 }
 
-.intro-container p a{
-        text-decoration: none;
-        font-weight: bold;
+.intro-container p a {
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.mission-holder{
-        margin: 0 1rem;
-        padding: 1rem;
-        color: #fff;
-        border: .1rem solid #fff;
-        border-radius: 2rem;
+.mission-holder {
+  margin: 0 1rem;
+  padding: 1rem;
+  color: #fff;
+  border: 0.1rem solid #fff;
+  border-radius: 2rem;
 }
 
-.mission-holder p{
-        line-height: 2.3;
-        margin: 1.3rem .3rem;
-        color: #bebebe;
+.mission-holder p {
+  line-height: 2.3;
+  margin: 1.3rem 0.3rem;
+  color: #bebebe;
 }
 
 .mission-holder h1,
-.vision-holder h1{
-        margin-bottom: 1.5rem;
+.vision-holder h1 {
+  margin-bottom: 1.5rem;
 }
 
-.vision-holder{
-        margin: 0 1rem;
-        padding: 1rem;
-        border: .1rem solid #fff;
-        color: #fff;
-        border-radius: 2rem;
+.vision-holder {
+  margin: 0 1rem;
+  padding: 1rem;
+  border: 0.1rem solid #fff;
+  color: #fff;
+  border-radius: 2rem;
 }
 
-.vision-holder p{
-        line-height: 2.3;
-        color: #bebebe;
-        margin: 1.3rem .3rem;
+.vision-holder p {
+  line-height: 2.3;
+  color: #bebebe;
+  margin: 1.3rem 0.3rem;
 }
 
 .augustino:hover,
-.foota a:hover{
-        text-decoration: underline;
+.foota a:hover {
+  text-decoration: underline;
 }
 
-.btn{
-        margin: 1rem .3rem;
+.btn {
+  margin: 1rem 0.3rem;
 }
-.foota{
-        text-align: center;
-        padding: 1rem;
-        margin-top: 5rem;
-}
-
-.foota-hr{
-        border: none;
-        outline: none;
-        height: 5px;
-        background-color: #fff;
+.foota {
+  text-align: center;
+  padding: 1rem;
+  margin-top: 5rem;
 }
 
-.foota p{
-        font-size: 1.1rem;
+.foota-hr {
+  border: none;
+  outline: none;
+  height: 5px;
+  background-color: #fff;
 }
 
-.foota a{
-        color: #0d6efd;
-        font-weight: bold;
-        text-decoration: none;
+.foota p {
+  font-size: 1.1rem;
 }
 
-.faceBook{
-        color: #1877F2;
+.foota a {
+  color: #0d6efd;
+  font-weight: bold;
+  text-decoration: none;
 }
 
-.whatsApp{
-        color: #25D366;
+.faceBook {
+  color: #1877f2;
 }
 
-.linkedIn{
-        color: #1877f2;
+.whatsApp {
+  color: #25d366;
 }
-.icons{
-        font-size: 1.9rem;
-        margin: .8rem .4rem;
+
+.linkedIn {
+  color: #1877f2;
+}
+.icons {
+  font-size: 1.9rem;
+  margin: 0.8rem 0.4rem;
 }

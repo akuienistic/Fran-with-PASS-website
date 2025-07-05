@@ -6,62 +6,63 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 
- body, html{
-        scroll-behavior: smooth;
-        background-color: #050417;
-        color: #fff;
- }
+body,
+html {
+  scroll-behavior: smooth;
+  background-color: #050417;
+  color: #fff;
+}
 
- .contact-container{
-        margin: 10rem auto;
- }
+.contact-container {
+  margin: 10rem auto;
+}
 
- .contact-form{
-       border: .1rem dashed #fff;
-       border-radius: 1.2rem;
-       padding: 2.5rem 1rem;
- }
+.contact-form {
+  border: 0.1rem dashed #fff;
+  border-radius: 1.2rem;
+  padding: 2.5rem 1rem;
+}
 
- .contact-para{
-        color: #afafaf;
-        font-size: 1.5rem;
- }
+.contact-para {
+  color: #afafaf;
+  font-size: 1.5rem;
+}
 
- .inputBoxes{
-       background-color: transparent;
-       outline: none;
-       color: #fff;
-       border: .1rem solid #898f94;
- }
- 
- .inputBoxes:focus{
-       box-shadow: none !important;
-       border: .1rem solid #898f94 !important;
-       color: #fff;
-       background-color: transparent;
- }
+.inputBoxes {
+  background-color: transparent;
+  outline: none;
+  color: #fff;
+  border: 0.1rem solid #898f94;
+}
 
- .inputBoxes::placeholder {
-       color: #898f94;
-       font-weight: 500; 
+.inputBoxes:focus {
+  box-shadow: none !important;
+  border: 0.1rem solid #898f94 !important;
+  color: #fff;
+  background-color: transparent;
+}
+
+.inputBoxes::placeholder {
+  color: #898f94;
+  font-weight: 500;
 }
 
 .inputBoxes:focus::placeholder,
 #msgBox:focus::placeholder {
-       color: transparent;
+  color: transparent;
 }
 
- .input-icon{
-       color: #fff;
- }
-
-#msgBox:focus {
-       border: none !important;
-       outline: none !important;
-       box-shadow: none !important;
-       color: #000;
+.input-icon {
+  color: #fff;
 }
 
 #msgBox:focus {
-       background-color: #f8f9fa; 
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  color: #000;
+}
+
+#msgBox:focus {
+  background-color: #f8f9fa;
 }

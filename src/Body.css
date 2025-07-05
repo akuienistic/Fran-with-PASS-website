@@ -6,25 +6,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 
-
-
-
-
 .propic {
-    border: 0.1rem solid cyan;
-    padding: 0.3rem;
-    margin-top: 2.5rem;
-    margin-bottom: 3rem;
-    transition: scale 0.3s ease;
-    box-shadow: 
-        0 0 15px #0ff,     
-        0 0 25px rgba(0, 255, 255, 0.8); 
+  border: 0.1rem solid cyan;
+  padding: 0.3rem;
+  margin-top: 2.5rem;
+  margin-bottom: 3rem;
+  transition: scale 0.3s ease;
+  box-shadow:
+    0 0 15px #0ff,
+    0 0 25px rgba(0, 255, 255, 0.8);
 }
 
-.propic:hover{
-        cursor: pointer;
-        scale: 1.2;
-        margin-bottom: 2rem 0;
+.propic:hover {
+  cursor: pointer;
+  scale: 1.2;
+  margin-bottom: 2rem 0;
 }
 
 @keyframes fadeDown {
@@ -42,34 +38,33 @@
   animation: fadeDown 2s ease-out forwards;
 }
 
-
-.section{
+.section {
   background-color: #050417;
   color: white;
 }
 
-.section .franIntro{
+.section .franIntro {
   color: #fff;
   text-align: center;
   font-size: 1.2rem;
   line-height: 2.3;
-  margin: auto .8rem;
+  margin: auto 0.8rem;
   font-weight: lighter;
   font-family: outfit, poppins, montserrat;
 }
 
-span{
+span {
   color: #0ff;
   font-weight: bold;
   font-size: 3rem;
 }
 
-b{
+b {
   font-weight: bold;
   font-size: 1.3rem;
 }
 
-.btn-container{
+.btn-container {
   text-align: center;
 }
 
@@ -78,67 +73,70 @@ b{
   border: none;
   font-weight: normal;
   border-radius: 2rem;
-  padding: .1rem 1rem;
+  padding: 0.1rem 1rem;
   background-color: #0ff;
   box-shadow: 0 0 5px #0ff;
-
 }
 
 .yt:hover {
-    filter: drop-shadow(0 0 10px #FF0000) drop-shadow(0 0 20px #FF0000);
+  filter: drop-shadow(0 0 10px #ff0000) drop-shadow(0 0 20px #ff0000);
 }
 .fb:hover {
-    filter: drop-shadow(0 0 10px #1877F2) drop-shadow(0 0 20px #1877F2);
+  filter: drop-shadow(0 0 10px #1877f2) drop-shadow(0 0 20px #1877f2);
 }
 
-.icon-holder{
+.icon-holder {
   text-align: center;
   margin-bottom: 1rem;
 }
 
-.yt{
-        color: #FF0000;
-        margin: 0 1rem;
-        font-size: 2.5rem;
-        transition: transform 0.3s ease;
+.yt {
+  color: #ff0000;
+  margin: 0 1rem;
+  font-size: 2.5rem;
+  transition: transform 0.3s ease;
 }
 
 .yt:hover,
-.fb:hover{
-        cursor: pointer;
-        transform: scale(1.2);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
+.fb:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
-.icon{
-        font-size: 2rem;
-        margin: 0 .6rem;
+.icon {
+  font-size: 2rem;
+  margin: 0 0.6rem;
 }
-
 
 @keyframes glow {
-    from {
-        box-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
-    }
-    to {
-        box-shadow: 0 0 15px #0ff, 0 0 30px #0ff;
-    }
+  from {
+    box-shadow:
+      0 0 5px #0ff,
+      0 0 10px #0ff;
+  }
+  to {
+    box-shadow:
+      0 0 15px #0ff,
+      0 0 30px #0ff;
+  }
 }
 
-#visitBtn:hover{
-        background-color: #03788a;
-        transition: all .3s ease;
-        animation: glow 1s infinite alternate ease; 
-        color: #fff;
+#visitBtn:hover {
+  background-color: #03788a;
+  transition: all 0.3s ease;
+  animation: glow 1s infinite alternate ease;
+  color: #fff;
 }
 
-.forwardIcon{
-        font-size: 1.2rem;
-        margin-top: 1rem;
-        margin-inline: .2rem;
-        margin-bottom: 1rem;
+.forwardIcon {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  margin-inline: 0.2rem;
+  margin-bottom: 1rem;
 }
-
 
 @keyframes fadeUp {
   from {
@@ -155,66 +153,67 @@ b{
   animation: fadeUp 2s ease-out forwards;
 }
 
-.footer-hr{
-        height: .1rem;
-        background-color: #fff;
-        border: none;
-        margin-top: 5rem;
+.footer-hr {
+  height: 0.1rem;
+  background-color: #fff;
+  border: none;
+  margin-top: 5rem;
 }
 
-.footer{
-        text-align: center;
+.footer {
+  text-align: center;
 }
 
-.footer p{
-        padding: .1rem;
-        font-size: 1.1rem;
-        font-family: outfit, poppins;
+.footer p {
+  padding: 0.1rem;
+  font-size: 1.1rem;
+  font-family: outfit, poppins;
 }
 
 .footer p a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #0ff;
-    transition: all 0.3s ease;
+  text-decoration: none;
+  font-weight: bold;
+  color: #0ff;
+  transition: all 0.3s ease;
 }
 
 .ld:hover {
-    filter: drop-shadow(0 0 10px #0A66C2) drop-shadow(0 0 20px #0A66C2);
+  filter: drop-shadow(0 0 10px #0a66c2) drop-shadow(0 0 20px #0a66c2);
 }
 .ws:hover {
-    filter: drop-shadow(0 0 10px #25D366) drop-shadow(0 0 20px #25D366);
+  filter: drop-shadow(0 0 10px #25d366) drop-shadow(0 0 20px #25d366);
 }
 
-.ws{
-        transition: transform 0.3s ease;
-        color: #25D366;
+.ws {
+  transition: transform 0.3s ease;
+  color: #25d366;
 }
 
-.ld{
-        transition: transform 0.3s ease;
-        color: #1877f2;
+.ld {
+  transition: transform 0.3s ease;
+  color: #1877f2;
 }
 
-.fb{
-        transition: transform 0.3s ease;
-        color: #1877F2;
+.fb {
+  transition: transform 0.3s ease;
+  color: #1877f2;
 }
 
 .fb:hover,
 .ld:hover,
-.ws:hover{
-        cursor: pointer;
-        transform: scale(1.2);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
+.ws:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
-.icon{
-        font-size: 2rem;
-        margin: 2rem .6rem;
+.icon {
+  font-size: 2rem;
+  margin: 2rem 0.6rem;
 }
 
-.icon-container{
-        text-align: center;
+.icon-container {
+  text-align: center;
 }
-

@@ -10,27 +10,27 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 
 function App() {
-
-    useEffect(() => {
+  useEffect(() => {
     AOS.init({
-      duration: 1000, 
-      once: false 
+      duration: 1000,
+      once: false,
     });
   }, []);
-  
+
   return (
     <Router>
       <Header />
       <Routes>
         <Route
-          path="/" element={
+          path="/"
+          element={
             <>
               <Body />
             </>
           }
         />
-        <Route path="/AboutPass" element={<AboutPass/>} />
-        <Route path="/Contact" element={<Contact/>} />
+        <Route path="/AboutPass" element={<AboutPass />} />
+        <Route path="/Contact" element={<Contact />} />
       </Routes>
     </Router>
   );
