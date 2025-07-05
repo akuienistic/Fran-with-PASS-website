@@ -1,9 +1,17 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation} from 'react-router-dom';
 
 import './Header.css'
 
 
 function Header(){
+
+            const location = useLocation();
+                    
+            const handleHomeClick = () => {
+              if (location.pathname === '/') {
+                window.location.reload();
+               } 
+              }
         return(
                         <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-1 fixed-top custom-navbar">
                                 <div class="container">
@@ -13,7 +21,7 @@ function Header(){
                                         </button>
                                         <div class="collapse navbar-collapse" id="navmenu">
                                                 <ul class="navbar-nav mx-auto">
-                                                        <li class="nav-items"><Link to="/" class="nav-link">Home</Link></li>
+                                                        <li class="nav-items"onClick={handleHomeClick}><Link to="/" class="nav-link">Home</Link></li>
                                                         <li class="nav-items"><Link to="/AboutPass" class="nav-link">What happens at PASS</Link></li>
                                                         <li class="nav-items"><Link to="/Contact" class="nav-link">Contact me</Link></li>
                                                 </ul>
