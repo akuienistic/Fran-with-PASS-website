@@ -37,7 +37,6 @@ h1 {
 
 .intro-container p {
   text-align: center;
-  /* padding: 0 2rem; */
   margin: 5rem 1.3rem;
   color: #dbdada;
   font-size: 1.001rem;
@@ -54,6 +53,7 @@ h1 {
   margin: 0 1rem;
   padding: 1rem;
   color: #fff;
+  background-color: rgba(225, 225, 225, 0.1);
   border: 0.1rem solid #fff;
   border-radius: 2rem;
 }
@@ -72,9 +72,10 @@ h1 {
 .vision-holder {
   margin: 0 1rem;
   padding: 1rem;
-  border: 0.1rem solid #fff;
   color: #fff;
   border-radius: 2rem;
+  border: 0.1rem solid #fff;
+  background-color: rgba(225, 225, 225, 0.1);
 }
 
 .vision-holder p {

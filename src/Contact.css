@@ -14,7 +14,8 @@ html {
 }
 
 .card, .contact-card-bg {
-  background-color: rgba(225, 225, 225, 0.8);
+  background-color: rgba(225, 225, 225, 0.2);
+  margin: 0 .5rem;
   border-radius: 1.2rem;
 }
 .contact-container {
@@ -26,25 +27,31 @@ html {
   padding: 2rem 1rem;
 }
 
+.h1-heading {
+  font-family: 'poppins', cursive;
+  color: #00ccff;
+  font-size: 2.5rem;
+}
+
 .contact-para {
-  color: #2d2d2d;
+  color: #cac7c7;
   font-size: 1.5rem;
   font-weight: lighter;
 }
 
 .inputBoxes, #msgBox {
-  background-color: transparent;
+  background-color: #f8f9fa;
   outline: none;
-  color: #fff;
+  color: #000;
   border: 0.1rem solid #050417;
 }
 
 .inputBoxes:focus, #msgBox:focus {
   box-shadow: none !important;
-  border: 0.1rem solid #06adc3 !important;
+  outline: none !important;
+  border: 0.1rem solid #00b9d2 !important;
   color: #000;
-  padding: rem;
-  background-color: transparent;
+  background-color: #e0dfdf;
 }
 
 .inputBoxes::placeholder, #msgBox::placeholder {
@@ -61,19 +68,15 @@ html {
   color: #000;
 }
 
-#msgBox:focus, .inputBoxes:focus {
-  background-color: #f8f9fa;
-}
-
 #submitBtn, .btn-gradient {
-  background: linear-gradient(90deg, #232526 0%, #000000 100%);
-  color: #fff;
+  background: linear-gradient(90deg, #06adc3 0%, #00e6ff 100%);
+  color: #000;
   border: none;
   transition: all 0.3s ease-in-out;
   box-shadow: 0 4px 16px 0 rgba(0,0,0,0.10);
 }
 
 #submitBtn:hover, .btn-gradient:hover, #submitBtn:focus, .btn-gradient:focus {
-  background: linear-gradient(90deg, #000000 0%, #232526 100%);
+  background: linear-gradient(90deg, #00e6ff 0%, #06adc3 100%);
   color: #fff;
 }

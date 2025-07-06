@@ -7,15 +7,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 
 .custom-navbar {
-  font-family: outfit, poppins;
+  font-family: "outfit", "poppins";
   padding: 1rem;
 }
 
 .brand-name {
   font-family:
-    outfit,
-    yeseva one,
-    poppins;
+    "yeseva one",
+    "outfit",
+    "poppins";
   font-weight: bold;
   font-size: 1.3rem;
   color: #0ff;

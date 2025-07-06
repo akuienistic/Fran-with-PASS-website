@@ -11,7 +11,7 @@ function Header() {
     }
   };
   return (
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-1 fixed-top custom-navbar">
+    <nav class="navbar navbar-expand-lg bg-dark py-1 fixed-top custom-navbar">
       <div class="container">
         <Link to="/" class="navbar-brand brand brand-name">
           FRAN ROBY
