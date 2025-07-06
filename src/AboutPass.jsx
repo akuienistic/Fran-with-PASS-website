@@ -10,10 +10,7 @@ function AboutPass() {
       <div className="wrapper-container">
         {/* Intro */}
         <div className="intro-container text-center mb-5" data-aos="fade-up">
-          <h1
-            className="h1-one mb-3 text-wrap fs-1 fs-md-3 fs-lg-4"
-            data-aos="fade-up"
-          >
+          <h1 className="h1-one mb-3 text-wrap fs-1 fs-md-3 fs-lg-4" data-aos="fade-up">
             PASS' Cores In a Nut Shell
           </h1>
           <img
@@ -38,32 +35,23 @@ function AboutPass() {
             >
               Dr. Augustino Mayai
             </a>
-            , a former Lost Boy of Sudan, and I, a former Guidance and Cousellor
-            from Minnesota in the U.S. Moved by South Sudan’s poverty and lack
-            of college opportunities for the youth, we created PASS to fight
-            poverty through education, offering full-ride college scholarships
-            to students who’d otherwise never attend university.
+            , a former Lost Boy of Sudan, and I, a former Guidance and Cousellor from Minnesota in the U.S. Moved by
+            South Sudan’s poverty and lack of college opportunities for the youth, we created PASS to fight poverty
+            through education, offering full-ride college scholarships to students who’d otherwise never attend
+            university.
           </p>
         </div>
 
         {/* Mission */}
-        <div
-          className="mission-holder row align-items-center mb-5"
-          data-aos="fade-up"
-        >
+        <div className="mission-holder row align-items-center mb-5" data-aos="fade-up">
           <div className="col-lg-6 mb-3 mb-lg-0">
             <h1>OUR MISSION</h1>
             <p>
-              PASS empowers South Sudanese youth, especially young women, to
-              overcome extreme poverty by providing access to education,
-              resources, and life-changing opportunities. We aim to create
-              pathways to a brighter, more equitable future.
+              PASS empowers South Sudanese youth, especially young women, to overcome extreme poverty by providing
+              access to education, resources, and life-changing opportunities. We aim to create pathways to a brighter,
+              more equitable future.
             </p>
-            <a
-              href="https://www.southsudanpass.org/team/who-we-are/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://www.southsudanpass.org/team/who-we-are/" target="_blank" rel="noopener noreferrer">
               <button className="btn btn-primary mb-5">Read more</button>
             </a>
           </div>
@@ -73,26 +61,18 @@ function AboutPass() {
         </div>
 
         {/* Vision */}
-        <div
-          className="vision-holder row align-items-center flex-sm-row-reverse"
-          data-aos="fade-up"
-        >
+        <div className="vision-holder row align-items-center flex-sm-row-reverse" data-aos="fade-up">
           <div className="col-lg-6 text-center order-2 order-lg-1">
             <img src={Vision} alt="Vision of PASS" className="img-fluid" />
           </div>
           <div className="col-lg-6 order-1 order-lg-2">
             <h1>OUR VISION</h1>
             <p>
-              PASS envisions a future where all South Sudanese youth regardless
-              of gender or background, have the education, access, and
-              opportunity they need to rise above poverty, unlock their
-              potential, and lead change in their communities.
+              PASS envisions a future where all South Sudanese youth regardless of gender or background, have the
+              education, access, and opportunity they need to rise above poverty, unlock their potential, and lead
+              change in their communities.
             </p>
-            <a
-              href="https://www.southsudanpass.org/team/who-we-are/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://www.southsudanpass.org/team/who-we-are/" target="_blank" rel="noopener noreferrer">
               <button className="btn btn-primary mb-5">Read more</button>
             </a>
           </div>
@@ -103,22 +83,14 @@ function AboutPass() {
         <hr className="foota-hr" />
         <p>
           &copy; 2025 - All rights reserved. Built by{' '}
-          <a
-            href="https://www.linkedin.com/in/simon-akuien-atem-710895290"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://www.linkedin.com/in/simon-akuien-atem-710895290" target="_blank" rel="noopener noreferrer">
             Simon A. Atem
           </a>
           . Connect with the developer
         </p>
 
         <div className="icon-wrapper">
-          <a
-            href="https://web.facebook.com/profile.php?id=61572703111798"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://web.facebook.com/profile.php?id=61572703111798" target="_blank" rel="noopener noreferrer">
             <FaFacebook className="icons faceBook" />
           </a>
 
@@ -131,11 +103,7 @@ function AboutPass() {
             <FaWhatsapp className="icons whatsApp" />
           </a>
 
-          <a
-            href="https://www.linkedin.com/in/simon-akuien-atem-710895290"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://www.linkedin.com/in/simon-akuien-atem-710895290" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className="icons linkedIn" />
           </a>
         </div>

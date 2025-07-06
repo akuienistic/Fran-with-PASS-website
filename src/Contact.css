@@ -13,38 +13,43 @@ html {
   color: #fff;
 }
 
+.card, .contact-card-bg {
+  background-color: rgba(225, 225, 225, 0.8);
+  border-radius: 1.2rem;
+}
 .contact-container {
   margin: 10rem auto;
 }
 
 .contact-form {
-  border: 0.1rem dashed #fff;
   border-radius: 1.2rem;
-  padding: 2.5rem 1rem;
+  padding: 2rem 1rem;
 }
 
 .contact-para {
-  color: #afafaf;
+  color: #2d2d2d;
   font-size: 1.5rem;
+  font-weight: lighter;
 }
 
-.inputBoxes {
+.inputBoxes, #msgBox {
   background-color: transparent;
   outline: none;
   color: #fff;
-  border: 0.1rem solid #898f94;
+  border: 0.1rem solid #050417;
 }
 
-.inputBoxes:focus {
+.inputBoxes:focus, #msgBox:focus {
   box-shadow: none !important;
-  border: 0.1rem solid #898f94 !important;
-  color: #fff;
+  border: 0.1rem solid #06adc3 !important;
+  color: #000;
+  padding: rem;
   background-color: transparent;
 }
 
-.inputBoxes::placeholder {
-  color: #898f94;
-  font-weight: 500;
+.inputBoxes::placeholder, #msgBox::placeholder {
+  color: #565656;
+  font-weight: 400;
 }
 
 .inputBoxes:focus::placeholder,
@@ -53,16 +58,22 @@ html {
 }
 
 .input-icon {
-  color: #fff;
-}
-
-#msgBox:focus {
-  border: none !important;
-  outline: none !important;
-  box-shadow: none !important;
   color: #000;
 }
 
-#msgBox:focus {
+#msgBox:focus, .inputBoxes:focus {
   background-color: #f8f9fa;
+}
+
+#submitBtn, .btn-gradient {
+  background: linear-gradient(90deg, #232526 0%, #000000 100%);
+  color: #fff;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.10);
+}
+
+#submitBtn:hover, .btn-gradient:hover, #submitBtn:focus, .btn-gradient:focus {
+  background: linear-gradient(90deg, #000000 0%, #232526 100%);
+  color: #fff;
 }

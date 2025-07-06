@@ -18,7 +18,8 @@
 }
 
 h1 {
-  font-family: outfit, poppins, montserrat;
+  font-weight: lighter;
+  font-family: "outfit", poppins, montserrat;
   font-weight: bold;
   text-align: center;
 }
@@ -30,7 +31,8 @@ h1 {
 .intro-container,
 .mission-holder,
 .vision-holder {
-  font-family: poppins, outfit, montserrat;
+  font-family: "poppins", "outfit", "montserrat";
+
 }
 
 .intro-container p {
@@ -40,6 +42,7 @@ h1 {
   color: #dbdada;
   font-size: 1.001rem;
   line-height: 2.3;
+  font-weight: light;
 }
 
 .intro-container p a {
